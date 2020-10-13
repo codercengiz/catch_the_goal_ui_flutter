@@ -1,6 +1,12 @@
+import 'package:CatchTheGoal/core/constants/app/app_constants.dart';
+import 'package:CatchTheGoal/core/init/language/language_manager.dart';
+import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 
-void main() => runApp(MyApp());
+void main() => runApp(EasyLocalization(
+    child: MyApp(),
+    supportedLocales: LanguageManager.instance.supportedLocales,
+    path: ApplicationConstants.LANGUAGE_ASSET_PATH));
 
 class MyApp extends StatelessWidget {
   @override
