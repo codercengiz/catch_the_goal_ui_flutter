@@ -33,7 +33,7 @@ class _TestsViewState extends BaseState<TestsView> {
 
   AppBar appBar() {
     return AppBar(
-      leading: Text(""),
+      leading: Text("sdasdasdas"),
       title: textWelcomeWidget(),
       actions: [iconButtonChangeTheme()],
     );
