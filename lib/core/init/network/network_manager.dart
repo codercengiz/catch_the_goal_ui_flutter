@@ -3,7 +3,7 @@ import 'dart:io';
 import 'package:CatchTheGoal/core/base/model/base_error.dart';
 import 'package:CatchTheGoal/core/base/model/base_model.dart';
 import 'package:CatchTheGoal/core/constants/enums/locale_keys_enum.dart';
-import 'package:CatchTheGoal/core/init/cache/local_manager.dart';
+import 'package:CatchTheGoal/core/init/services/cache/local_manager.dart';
 import 'package:CatchTheGoal/core/init/theme/app_theme.dart';
 import 'package:dio/dio.dart';
 import 'package:flutter/material.dart';

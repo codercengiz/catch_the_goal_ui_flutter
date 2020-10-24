@@ -4,7 +4,7 @@ import 'package:sqflite/sqflite.dart';
 
 class DbHelper {
   static Database _db;
-
+  int _version = 1;
   Future<Database> get db async {
     if (_db != null) return _db;
     _db = await dbInit();
@@ -15,7 +15,7 @@ class DbHelper {
     var dbFolder = await getDatabasesPath();
     String path = dbFolder + "catchgoal.db";
 
-    return await openDatabase(path, onCreate: _onCreate, version: 1);
+    return await openDatabase(path, onCreate: _onCreate, version: _version);
   }
 
   FutureOr<void> _onCreate(Database db, int version) async {
