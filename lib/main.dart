@@ -5,7 +5,7 @@ import 'package:CatchTheGoal/core/init/navigation/navigation_route.dart';
 import 'package:CatchTheGoal/core/init/navigation/navigation_service.dart';
 import 'package:CatchTheGoal/core/init/notifier/provider_list.dart';
 import 'package:CatchTheGoal/core/init/notifier/theme_notifier.dart';
-import 'package:CatchTheGoal/screen/test/view/test_view.dart';
+import 'package:CatchTheGoal/ui/test/view/test_view.dart';
 
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';

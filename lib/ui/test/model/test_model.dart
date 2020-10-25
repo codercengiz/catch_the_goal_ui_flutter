@@ -6,7 +6,7 @@ part 'test_model.g.dart';
 @JsonSerializable()
 class TestModel extends BaseModel {
   int userId;
-  int id;
+  String id;
   String title;
   bool completed;
 

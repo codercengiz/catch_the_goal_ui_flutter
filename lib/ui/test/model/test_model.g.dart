@@ -9,7 +9,7 @@ part of 'test_model.dart';
 TestModel _$TestModelFromJson(Map<String, dynamic> json) {
   return TestModel(
     userId: json['userId'] as int,
-    id: json['id'] as int,
+    id: json['id'] as String,
     title: json['title'] as String,
     completed: json['completed'] as bool,
   );

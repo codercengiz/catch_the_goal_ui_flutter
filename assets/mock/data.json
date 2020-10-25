@@ -1,0 +1,458 @@
+﻿{
+    "Dashboard": [
+        {
+            "id": "af2a8df8-8244-411f-9bb3-eb6778734e5d",
+            "user_id": "a3683206-8312-4449-bed3-9ca66e80f1b4",
+            "day": "25.10.2017",
+            "goal_id": "046bc91f-88bb-41d2-be88-020e12cbe029",
+            "goal_type": "Do Task",
+            "goal_name": "Call Mom",
+            "target": "1",
+            "amount": "1",
+            "result": "1",
+            "percent": "100"
+        },
+        {
+            "id": "0fbcd73b-4055-49ce-a642-d91711671b2f",
+            "user_id": "a3683206-8312-4449-bed3-9ca66e80f1b4",
+            "day": "25.10.2017",
+            "goal_id": "ebba53be-bb78-4a36-a91c-b77318be0500",
+            "goal_type": "Don’t do Task",
+            "goal_name": "Alkohol",
+            "target": "0",
+            "amount": "0",
+            "result": "1",
+            "percent": "100"
+        },
+        {
+            "id": "aa058e03-2bd4-480a-adf6-a13df59c552c",
+            "user_id": "a3683206-8312-4449-bed3-9ca66e80f1b4",
+            "day": "25.10.2017",
+            "goal_id": "e6f8e72b-50c9-473e-8199-1f5b2bdcfb87",
+            "goal_type": "Minumum Target",
+            "goal_name": "Book read",
+            "target": "20",
+            "amount": "20",
+            "result": "1",
+            "percent": "100"
+        },
+        {
+            "id": "04fa63f9-cc66-46b8-9ba9-5016279de27a",
+            "user_id": "a3683206-8312-4449-bed3-9ca66e80f1b4",
+            "day": "25.10.2017",
+            "goal_id": "aad2b762-81d8-45b4-90db-4f540b7b90f3",
+            "goal_type": "Maximum Target",
+            "goal_name": "Chocalate Eat",
+            "target": "5",
+            "amount": "5",
+            "result": "1",
+            "percent": "100"
+        },
+        {
+            "id": "6acfea4c-f4d2-46eb-a16d-399a3a6ff2df",
+            "user_id": "a3683206-8312-4449-bed3-9ca66e80f1b4",
+            "day": "25.10.2017",
+            "goal_id": "6e59872c-ec80-413d-b202-c5a3c0c191fc",
+            "goal_type": "Desired Target",
+            "goal_name": "TOEFL",
+            "target": "299",
+            "amount": "210",
+            "result": "1",
+            "percent": "100"
+        },
+        {
+            "id": "2c6d20d3-eba4-4a9b-8cd5-dbf46c879520",
+            "user_id": "a3683206-8312-4449-bed3-9ca66e80f1b4",
+            "day": "25.10.2017",
+            "goal_id": "ad33972c-9af6-4e4f-9e59-35b140634065",
+            "goal_type": "Minumum Target",
+            "goal_name": "Run",
+            "target": "20",
+            "amount": "50",
+            "result": "1",
+            "percent": "250"
+        },
+        {
+            "id": "07609c37-942d-4908-91a0-f6b78b6b16a6",
+            "user_id": "a3683206-8312-4449-bed3-9ca66e80f1b4",
+            "day": "25.10.2017",
+            "goal_id": "8f29a41a-4d96-468d-bd20-6c27eec64702",
+            "goal_type": "Minumum Target",
+            "goal_name": "Homework",
+            "target": "30",
+            "amount": "40",
+            "result": "1",
+            "percent": "130"
+        },
+        {
+            "id": "a621d841-a38f-4e6c-a5a1-961188ad4430",
+            "user_id": "a3683206-8312-4449-bed3-9ca66e80f1b4",
+            "day": "25.10.2017",
+            "goal_id": "363c9e46-57be-4e7a-bf39-97cdef7f784f",
+            "goal_type": "Minumum Target",
+            "goal_name": "Prey",
+            "target": "20",
+            "amount": "20",
+            "result": "1",
+            "percent": "100"
+        },
+        {
+            "id": "bc70834a-4abe-4e30-9789-22f61f41b00d",
+            "user_id": "a3683206-8312-4449-bed3-9ca66e80f1b4",
+            "day": "25.10.2017",
+            "goal_id": "3fe7af75-1af0-4866-b228-ed74f63680a3",
+            "goal_type": "Minumum Target",
+            "goal_name": "Word Lern",
+            "target": "10",
+            "amount": "10",
+            "result": "1",
+            "percent": "100"
+        },
+        {
+            "id": "5ca30cc8-6339-49c9-9875-56c697de8424",
+            "user_id": "a3683206-8312-4449-bed3-9ca66e80f1b4",
+            "day": "25.10.2017",
+            "goal_id": "61a6d216-f839-4f0f-b98c-9daab23f29c6",
+            "goal_type": "Minumum Target",
+            "goal_name": "Walking",
+            "target": "2000",
+            "amount": "1000",
+            "result": "0",
+            "percent": "50"
+        }
+    ],
+    "Result": [
+        {
+            "id": "815b0662-baae-4bd3-9f02-199fee1ce0b3",
+            "user_id": "a3683206-8312-4449-bed3-9ca66e80f1b4",
+            "goal_id": "046bc91f-88bb-41d2-be88-020e12cbe029",
+            "date": "25.10.2020",
+            "amount": "1",
+            "result": "1"
+        },
+        {
+            "id": "91718b72-51b2-4aaa-bf45-9efd2efa39bc",
+            "user_id": "a3683206-8312-4449-bed3-9ca66e80f1b4",
+            "goal_id": "ebba53be-bb78-4a36-a91c-b77318be0500",
+            "date": "25.10.2020",
+            "amount": "1",
+            "result": "1"
+        },
+        {
+            "id": "717decd8-ec69-4846-ac81-6e726df6d5d3",
+            "user_id": "a3683206-8312-4449-bed3-9ca66e80f1b4",
+            "goal_id": "e6f8e72b-50c9-473e-8199-1f5b2bdcfb87",
+            "date": "25.10.2020",
+            "amount": "20",
+            "result": "1"
+        },
+        {
+            "id": "40abb72c-885e-451f-ad03-cce40532d041",
+            "user_id": "a3683206-8312-4449-bed3-9ca66e80f1b4",
+            "goal_id": "aad2b762-81d8-45b4-90db-4f540b7b90f3",
+            "date": "25.10.2020",
+            "amount": "5",
+            "result": "1"
+        },
+        {
+            "id": "789944fa-e4a6-4744-9726-cffc9d856eff",
+            "user_id": "a3683206-8312-4449-bed3-9ca66e80f1b4",
+            "goal_id": "6e59872c-ec80-413d-b202-c5a3c0c191fc",
+            "date": "25.10.2020",
+            "amount": "210",
+            "result": "1"
+        },
+        {
+            "id": "b6197263-59e9-4671-ac1c-3b5448dd7976",
+            "user_id": "a3683206-8312-4449-bed3-9ca66e80f1b4",
+            "goal_id": "ad33972c-9af6-4e4f-9e59-35b140634065",
+            "date": "25.10.2020",
+            "amount": "20",
+            "result": "1"
+        },
+        {
+            "id": "a68219c7-f18a-4d74-aa4d-1ca9f7bb1b0a",
+            "user_id": "a3683206-8312-4449-bed3-9ca66e80f1b4",
+            "goal_id": "8f29a41a-4d96-468d-bd20-6c27eec64702",
+            "date": "25.10.2020",
+            "amount": "30",
+            "result": "1"
+        },
+        {
+            "id": "d0522593-1c85-408e-928a-6b281953d7eb",
+            "user_id": "a3683206-8312-4449-bed3-9ca66e80f1b4",
+            "goal_id": "363c9e46-57be-4e7a-bf39-97cdef7f784f",
+            "date": "25.10.2020",
+            "amount": "20",
+            "result": "1"
+        },
+        {
+            "id": "d4113219-0cad-4ba6-9350-d634c7a1de97",
+            "user_id": "a3683206-8312-4449-bed3-9ca66e80f1b4",
+            "goal_id": "3fe7af75-1af0-4866-b228-ed74f63680a3",
+            "date": "25.10.2020",
+            "amount": "10",
+            "result": "1"
+        },
+        {
+            "id": "a6d82ce5-b801-42bc-955a-508f080830ca",
+            "user_id": "a3683206-8312-4449-bed3-9ca66e80f1b4",
+            "goal_id": "61a6d216-f839-4f0f-b98c-9daab23f29c6",
+            "date": "25.10.2020",
+            "amount": "1000",
+            "result": "0"
+        }
+    ],
+    "GoalSubject": [
+        {
+            "id": "046bc91f-88bb-41d2-be88-020e12cbe029",
+            "user_id": "a3683206-8312-4449-bed3-9ca66e80f1b4",
+            "order": "0",
+            "name": "Call Mom",
+            "type": "Do Task",
+            "unit": "qt",
+            "public": "0"
+        },
+        {
+            "id": "ebba53be-bb78-4a36-a91c-b77318be0500",
+            "user_id": "a3683206-8312-4449-bed3-9ca66e80f1b4",
+            "order": "1",
+            "name": "Alkohol",
+            "type": "Don’t do Task",
+            "unit": "qt",
+            "public": "0"
+        },
+        {
+            "id": "e6f8e72b-50c9-473e-8199-1f5b2bdcfb87",
+            "user_id": "a3683206-8312-4449-bed3-9ca66e80f1b4",
+            "order": "2",
+            "name": "Book read",
+            "type": "Minumum Target",
+            "unit": "syf",
+            "public": "0"
+        },
+        {
+            "id": "aad2b762-81d8-45b4-90db-4f540b7b90f3",
+            "user_id": "a3683206-8312-4449-bed3-9ca66e80f1b4",
+            "order": "3",
+            "name": "Chocalate Eat",
+            "type": "Maximum Target",
+            "unit": "st",
+            "public": "0"
+        },
+        {
+            "id": "6e59872c-ec80-413d-b202-c5a3c0c191fc",
+            "user_id": "a3683206-8312-4449-bed3-9ca66e80f1b4",
+            "order": "4",
+            "name": "TOEFL",
+            "type": "Desired Target",
+            "unit": "puan",
+            "public": "0"
+        },
+        {
+            "id": "ad33972c-9af6-4e4f-9e59-35b140634065",
+            "user_id": "a3683206-8312-4449-bed3-9ca66e80f1b4",
+            "order": "5",
+            "name": "Run",
+            "type": "Minumum Target",
+            "unit": "dk",
+            "public": "0"
+        },
+        {
+            "id": "8f29a41a-4d96-468d-bd20-6c27eec64702",
+            "user_id": "a3683206-8312-4449-bed3-9ca66e80f1b4",
+            "order": "6",
+            "name": "Homework",
+            "type": "Minumum Target",
+            "unit": "dk",
+            "public": "0"
+        },
+        {
+            "id": "363c9e46-57be-4e7a-bf39-97cdef7f784f",
+            "user_id": "a3683206-8312-4449-bed3-9ca66e80f1b4",
+            "order": "7",
+            "name": "Prey",
+            "type": "Minumum Target",
+            "unit": "adt",
+            "public": "0"
+        },
+        {
+            "id": "3fe7af75-1af0-4866-b228-ed74f63680a3",
+            "user_id": "a3683206-8312-4449-bed3-9ca66e80f1b4",
+            "order": "8",
+            "name": "Word Lern",
+            "type": "Minumum Target",
+            "unit": "soru",
+            "public": "0"
+        },
+        {
+            "id": "61a6d216-f839-4f0f-b98c-9daab23f29c6",
+            "user_id": "a3683206-8312-4449-bed3-9ca66e80f1b4",
+            "order": "9",
+            "name": "Walking",
+            "type": "Minumum Target",
+            "unit": "adim",
+            "public": "0"
+        }
+    ],
+    "Goal": [
+        {
+            "id": "d76d8b89-95b0-457c-a0b1-f39786460e83",
+            "user_id": "a3683206-8312-4449-bed3-9ca66e80f1b4",
+            "subject_id": "046bc91f-88bb-41d2-be88-020e12cbe029",
+            "recurrent_type": "daily",
+            "warn_day": "1234567",
+            "target": "1",
+            "start": "25.10.2020"
+        },
+        {
+            "id": "858106b7-b751-4655-be05-7523b0f50794",
+            "user_id": "a3683206-8312-4449-bed3-9ca66e80f1b4",
+            "subject_id": "ebba53be-bb78-4a36-a91c-b77318be0500",
+            "recurrent_type": "weekly",
+            "warn_day": "3",
+            "target": "0",
+            "start": "25.10.2020"
+        },
+        {
+            "id": "98fdcf05-34eb-41de-bcd2-de34ab8ff8cb",
+            "user_id": "a3683206-8312-4449-bed3-9ca66e80f1b4",
+            "subject_id": "e6f8e72b-50c9-473e-8199-1f5b2bdcfb87",
+            "recurrent_type": "weekly",
+            "warn_day": "7",
+            "target": "20",
+            "start": "25.10.2020"
+        },
+        {
+            "id": "ea7cbfa9-b6e8-4505-a24a-044796972eab",
+            "user_id": "a3683206-8312-4449-bed3-9ca66e80f1b4",
+            "subject_id": "aad2b762-81d8-45b4-90db-4f540b7b90f3",
+            "recurrent_type": "Mountly",
+            "warn_day": "0",
+            "target": "5",
+            "start": "25.10.2020"
+        },
+        {
+            "id": "24cda806-ba10-421a-8d12-0bded1fc886c",
+            "user_id": "a3683206-8312-4449-bed3-9ca66e80f1b4",
+            "subject_id": "6e59872c-ec80-413d-b202-c5a3c0c191fc",
+            "recurrent_type": "selected_days",
+            "warn_day": "1357",
+            "target": "299",
+            "init_target": "200",
+            "start": "25.10.2020",
+            "end": "01.01.2021"
+        },
+        {
+            "id": "6719449c-cf1e-4d5b-ac0a-8924a89bd669",
+            "user_id": "a3683206-8312-4449-bed3-9ca66e80f1b4",
+            "subject_id": "ad33972c-9af6-4e4f-9e59-35b140634065",
+            "recurrent_type": "selected_days",
+            "warn_day": "1234567",
+            "target": "20",
+            "start": "25.10.2020"
+        },
+        {
+            "id": "a57bc742-90c1-49cc-9de5-c8a89acc47a4",
+            "user_id": "a3683206-8312-4449-bed3-9ca66e80f1b4",
+            "subject_id": "8f29a41a-4d96-468d-bd20-6c27eec64702",
+            "recurrent_type": "daily",
+            "warn_day": "1234567",
+            "target": "30",
+            "start": "25.10.2020"
+        },
+        {
+            "id": "080ec7b0-ec21-44a5-8e37-b35041abecf4",
+            "user_id": "a3683206-8312-4449-bed3-9ca66e80f1b4",
+            "subject_id": "363c9e46-57be-4e7a-bf39-97cdef7f784f",
+            "recurrent_type": "daily",
+            "warn_day": "1234567",
+            "target": "20",
+            "start": "25.10.2020"
+        },
+        {
+            "id": "a998c9bb-6ea0-44ab-a9fc-755bbc02bb5d",
+            "user_id": "a3683206-8312-4449-bed3-9ca66e80f1b4",
+            "subject_id": "3fe7af75-1af0-4866-b228-ed74f63680a3",
+            "recurrent_type": "daily",
+            "warn_day": "1234567",
+            "target": "10",
+            "start": "25.10.2020"
+        },
+        {
+            "id": "cc714f1a-11df-4823-9b7d-b5149d485aa7",
+            "user_id": "a3683206-8312-4449-bed3-9ca66e80f1b4",
+            "subject_id": "61a6d216-f839-4f0f-b98c-9daab23f29c6",
+            "recurrent_type": "daily",
+            "warn_day": "1234567",
+            "target": "2000",
+            "start": "25.10.2020"
+        }
+    ],
+    "Settings": [
+        {
+            "id": "1",
+            "user_id": "a3683206-8312-4449-bed3-9ca66e80f1b4",
+            "key": "Language",
+            "value": "En"
+        },
+        {
+            "id": "2",
+            "user_id": "a3683206-8312-4449-bed3-9ca66e80f1b4",
+            "key": "DailyRemember",
+            "value": "TRUE"
+        },
+        {
+            "id": "3",
+            "user_id": "a3683206-8312-4449-bed3-9ca66e80f1b4",
+            "key": "RememberHour",
+            "value": "23:30"
+        },
+        {
+            "id": "4",
+            "user_id": "a3683206-8312-4449-bed3-9ca66e80f1b4"
+        },
+        {
+            "id": "5",
+            "user_id": "a3683206-8312-4449-bed3-9ca66e80f1b4"
+        },
+        {
+            "id": "6",
+            "user_id": "a3683206-8312-4449-bed3-9ca66e80f1b4"
+        },
+        {
+            "id": "7",
+            "user_id": "a3683206-8312-4449-bed3-9ca66e80f1b4"
+        }
+    ],
+    "User": [
+        {
+            "id": "a3683206-8312-4449-bed3-9ca66e80f1b4",
+            "Name": "Joe",
+            "isActivated": "0"
+        }
+    ],
+    "acikalma": [
+        {
+            "uc baslik var": "* hedefin gunluk veya tekaralayan hedef olmasi"
+        },
+        {
+            "uc baslik var": "* hedefin gunluk sorulup sourlmamamisi"
+        },
+        {
+            "uc baslik var": "* hedefi hatilatma"
+        },
+        {
+            "uc baslik var": "her gun"
+        },
+        {
+            "uc baslik var": "bazi gunler"
+        },
+        {
+            "uc baslik var": "her ay basi"
+        },
+        {
+            "uc baslik var": "direk tarih"
+        }
+    ]
+}

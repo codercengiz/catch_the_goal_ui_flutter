@@ -1,5 +1,5 @@
 import 'package:CatchTheGoal/core/constants/navigation/navigation_constant.dart';
-import 'package:CatchTheGoal/screen/test/view/test_view.dart';
+import 'package:CatchTheGoal/ui/test/view/test_view.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 
