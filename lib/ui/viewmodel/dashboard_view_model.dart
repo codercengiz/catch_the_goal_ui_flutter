@@ -19,7 +19,7 @@ abstract class _DashboardViewModelBase with Store, BaseViewModel {
   bool isLoading = false;
 
   @observable
-  int number = 0;
+  int number = 2000;
 
   @computed
   bool get isEven => number % 2 == 0;

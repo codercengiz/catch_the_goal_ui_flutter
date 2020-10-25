@@ -4,12 +4,12 @@ import 'package:CatchTheGoal/ui/viewmodel/dashboard_view_model.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_mobx/flutter_mobx.dart';
 
-class DashbaordView extends StatefulWidget {
+class DashboardView extends StatefulWidget {
   @override
-  _DashbaordViewState createState() => _DashbaordViewState();
+  _DashboardViewState createState() => _DashboardViewState();
 }
 
-class _DashbaordViewState extends BaseState<DashbaordView> {
+class _DashboardViewState extends BaseState<DashboardView> {
   DashboardViewModel viewModel;
   @override
   Widget build(BuildContext context) {
@@ -66,7 +66,7 @@ class _DashbaordViewState extends BaseState<DashbaordView> {
   }
 }
 
-extension _FormArea on _DashbaordViewState {
+extension _FormArea on _DashboardViewState {
   TextFormField get mailField => TextFormField(
       //validator: (value) => value.isValidEmail,
       );
