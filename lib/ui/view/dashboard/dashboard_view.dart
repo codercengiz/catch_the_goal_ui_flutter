@@ -17,6 +17,7 @@ class _DashboardViewState extends BaseState<DashboardView> {
       viewModel: DashboardViewModel(),
       onModelReady: (model) {
         model.setContext(context);
+        model.init();
         viewModel = model;
       },
       onPageBuilder: (context, value) => scaffoldBody,

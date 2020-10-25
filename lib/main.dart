@@ -15,9 +15,10 @@ import 'package:provider/provider.dart';
 import 'core/init/services/cache/local_manager.dart';
 
 void main() {
+  WidgetsFlutterBinding.ensureInitialized();
   LocaleManager.preferencesInit();
   runApp(MultiProvider(
-    providers: [...ApplicationProvider.instance.uiChangesItems],
+    providers: [...ApplicationProvider.instance.dependItems],
     child: EasyLocalization(
         child: MyApp(),
         supportedLocales: LanguageManager.instance.supportedLocales,
