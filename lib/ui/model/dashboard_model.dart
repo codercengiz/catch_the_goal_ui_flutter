@@ -1,4 +1,6 @@
-class DashboardModel {
+import 'package:CatchTheGoal/core/base/model/base_model.dart';
+
+class DashboardModel extends BaseModel {
   String id;
   String userId;
   String day;
@@ -22,6 +24,7 @@ class DashboardModel {
       this.result,
       this.percent});
 
+  @override
   DashboardModel.fromJson(Map<String, dynamic> json) {
     id = json['id'];
     userId = json['user_id'];
@@ -49,4 +52,8 @@ class DashboardModel {
     data['percent'] = this.percent;
     return data;
   }
+
+  @override
+  DashboardModel fromJson(Map<String, Object> json) =>
+      DashboardModel.fromJson(json);
 }

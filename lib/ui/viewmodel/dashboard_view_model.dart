@@ -24,12 +24,14 @@ abstract class _DashboardViewModelBase with Store, BaseViewModel {
             "goal_id": "046bc91f-88bb-41d2-be88-020e12cbe029",
             "goal_type": "Do Task",
             "goal_name": "Call Mom",
-            "target": "1",
-            "amount": "1",
-            "result": "1",
-            "percent": "100"
+            "target": 1,
+            "amount": 1,
+            "result": 1,
+            "percent": 100
         }''';
-    dashboardModel.add(DashboardModel.fromJson(json.decode(value)));
+    DashboardModel dash = DashboardModel.fromJson(json.decode(value));
+    dashboardModel = [];
+    dashboardModel.add(dash);
   }
 
   List<DashboardModel> dashboardModel;
