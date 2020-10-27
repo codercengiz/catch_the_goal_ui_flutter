@@ -29,7 +29,7 @@ abstract class _DashboardViewModelBase with Store, BaseViewModel {
             "result": "1",
             "percent": "100"
         }''';
-    dashboardModel.add(DashboardModel.fromJson(json.decode("")));
+    dashboardModel.add(DashboardModel.fromJson(json.decode(value)));
   }
 
   List<DashboardModel> dashboardModel;
