@@ -10,6 +10,7 @@
             "target": "1",
             "amount": "1",
             "result": "1",
+            "unit": "qt",
             "percent": "100"
         },
         {
@@ -22,6 +23,7 @@
             "target": "0",
             "amount": "0",
             "result": "1",
+            "unit": "qt",
             "percent": "100"
         },
         {
@@ -34,6 +36,7 @@
             "target": "20",
             "amount": "20",
             "result": "1",
+            "unit": "qt",
             "percent": "100"
         },
         {
@@ -46,6 +49,7 @@
             "target": "5",
             "amount": "5",
             "result": "1",
+            "unit": "qt",
             "percent": "100"
         },
         {
@@ -58,6 +62,7 @@
             "target": "299",
             "amount": "210",
             "result": "1",
+            "unit": "qt",
             "percent": "100"
         },
         {
@@ -82,6 +87,7 @@
             "target": "30",
             "amount": "40",
             "result": "1",
+            "unit": "qt",
             "percent": "130"
         },
         {
@@ -94,6 +100,7 @@
             "target": "20",
             "amount": "20",
             "result": "1",
+            "unit": "qt",
             "percent": "100"
         },
         {
@@ -106,6 +113,7 @@
             "target": "10",
             "amount": "10",
             "result": "1",
+            "unit": "qt",
             "percent": "100"
         },
         {
@@ -118,6 +126,7 @@
             "target": "2000",
             "amount": "1000",
             "result": "0",
+            "unit": "qt",
             "percent": "50"
         }
     ],

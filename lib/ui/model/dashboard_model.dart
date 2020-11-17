@@ -1,6 +1,6 @@
 import 'package:CatchTheGoal/core/base/model/base_model.dart';
 
-class DashboardModel extends BaseModel {
+class DashboardModel with BaseModel {
   String id;
   String userId;
   String day;
@@ -10,7 +10,9 @@ class DashboardModel extends BaseModel {
   int target;
   int amount;
   int result;
+  String unit;
   int percent;
+  bool isCompleted;
 
   DashboardModel(
       {this.id,
@@ -22,7 +24,9 @@ class DashboardModel extends BaseModel {
       this.target,
       this.amount,
       this.result,
-      this.percent});
+      this.unit,
+      this.percent,
+      this.isCompleted});
 
   @override
   DashboardModel.fromJson(Map<String, dynamic> json) {
@@ -35,7 +39,9 @@ class DashboardModel extends BaseModel {
     target = json['target'];
     amount = json['amount'];
     result = json['result'];
+    unit = json['unit'];
     percent = json['percent'];
+    isCompleted = json['is_completed'] == 1 ? true : false;
   }
 
   Map<String, dynamic> toJson() {
@@ -49,7 +55,9 @@ class DashboardModel extends BaseModel {
     data['target'] = this.target;
     data['amount'] = this.amount;
     data['result'] = this.result;
+    data['unit'] = this.unit;
     data['percent'] = this.percent;
+    data['is_completed'] = this.isCompleted ? 1 : 0;
     return data;
   }
 

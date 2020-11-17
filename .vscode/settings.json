@@ -1,0 +1,11 @@
+{
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "database": "/data/user/0/com.example.CatchTheGoal/databasescatchgoal.db",
+            "name": "catch"
+        }
+    ],
+    "sqltools.useNodeRuntime": true
+}

@@ -1,8 +1,7 @@
+import 'package:CatchTheGoal/core/base/model/base_model.dart';
 import 'package:sqflite/sqflite.dart';
 
-import 'database_model.dart';
-
-abstract class DatabaseProvider<T extends DatabaseModel> {
+abstract class DatabaseProvider<T extends BaseModel> {
   Future open();
   Future<T> getItem(int id);
   Future<List<T>> getList();

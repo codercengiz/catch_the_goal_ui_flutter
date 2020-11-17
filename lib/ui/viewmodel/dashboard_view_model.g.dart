@@ -16,6 +16,23 @@ mixin _$DashboardViewModel on _DashboardViewModelBase, Store {
           name: '_DashboardViewModelBase.isEven'))
       .value;
 
+  final _$goalListForDashboardAtom =
+      Atom(name: '_DashboardViewModelBase.goalListForDashboard');
+
+  @override
+  ObservableList<DashboardModel> get goalListForDashboard {
+    _$goalListForDashboardAtom.reportRead();
+    return super.goalListForDashboard;
+  }
+
+  @override
+  set goalListForDashboard(ObservableList<DashboardModel> value) {
+    _$goalListForDashboardAtom.reportWrite(value, super.goalListForDashboard,
+        () {
+      super.goalListForDashboard = value;
+    });
+  }
+
   final _$isLoadingAtom = Atom(name: '_DashboardViewModelBase.isLoading');
 
   @override
@@ -69,8 +86,31 @@ mixin _$DashboardViewModel on _DashboardViewModelBase, Store {
   }
 
   @override
+  void isCompletedClicked(DashboardModel model) {
+    final _$actionInfo = _$_DashboardViewModelBaseActionController.startAction(
+        name: '_DashboardViewModelBase.isCompletedClicked');
+    try {
+      return super.isCompletedClicked(model);
+    } finally {
+      _$_DashboardViewModelBaseActionController.endAction(_$actionInfo);
+    }
+  }
+
+  @override
+  void select() {
+    final _$actionInfo = _$_DashboardViewModelBaseActionController.startAction(
+        name: '_DashboardViewModelBase.select');
+    try {
+      return super.select();
+    } finally {
+      _$_DashboardViewModelBaseActionController.endAction(_$actionInfo);
+    }
+  }
+
+  @override
   String toString() {
     return '''
+goalListForDashboard: ${goalListForDashboard},
 isLoading: ${isLoading},
 number: ${number},
 isEven: ${isEven}
